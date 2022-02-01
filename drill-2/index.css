@@ -1,0 +1,89 @@
+.container {
+   /* background-color: bisque; */
+   display: flex;
+   flex-direction: column;
+   padding: 2vw;
+}
+
+.content-box {
+   box-sizing: border-box;
+   height: 100%;
+   width: 100%;
+}
+
+#panel-1 {
+   height: 25vw;
+   padding: 1vw;
+   display: flex;
+   border: black 5px solid;
+   align-items: flex-end;
+   margin-bottom: 2vw;
+}
+
+#panel-2 {
+   height: 30vw;
+   padding: 2vw;
+   display: flex;
+   border: black 5px dotted;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 2vw;
+}
+
+#panel-3 {
+   height: 30vw;
+   /* padding: 2vw; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+#bar {
+   background-color: rgb(138, 43, 226);
+   margin-right: 4vw;
+   
+   height: 75%;
+   width: 5%;
+}
+
+#rectangle {
+   background-color: rgb(34, 139, 34);
+   margin-right: 4vw;
+   height: 100%;
+   width: 40%;
+}
+
+#circle {
+   background-color: rgb(135, 206, 235);
+   /* margin: 1vw 2vw 1vw 1vw; */
+   height: 100%;
+   width: 25%;
+   border-radius: 50%;
+}
+
+#blank-box {
+   background-color: rgb(255, 250, 205);
+   box-shadow: 5px 5px 10px black;
+   height: 80%;
+   width: 95%;
+}
+
+#greeting {
+   height: 100%;
+   width: 50%;
+   display: flex;
+   box-shadow: 5px 5px 10px;
+   justify-content: center;
+   align-items: center;
+}
+
+h1 {
+   color: rgb(0, 0, 128);
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   font-size: 2.2rem;
+   font-weight: 580;
+   letter-spacing: 10px;
+   line-height: 1.2;
+}

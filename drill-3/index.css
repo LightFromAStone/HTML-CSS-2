@@ -1,0 +1,59 @@
+.container {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   width: 100%;
+}
+
+#gray {
+   background-color: rgb(216, 216, 216);
+   height: 16vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+
+#small-blue {
+   background-color: rgb(91, 143, 220);
+   height: 10vh;
+   width: 10vh;
+   margin-left: 3vh;
+}
+
+#white {
+   background-color: white;
+   height: 34vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+p {
+   padding: 5vh;
+}
+
+
+#blue {
+   background-color: rgb(91, 143, 220);
+   height: 25vh;
+   width: 100%;
+}
+
+#aqua {
+   background-color: rgb(123, 224, 195);
+   height: 25vh;
+   width: 100%;
+}
+
+#green {
+   background-color: rgb(194, 231, 145);
+   height: 25vh;
+   width: 100%;
+}
+
+#yellow {
+   background-color: rgb(245, 231, 82);
+   height: 25vh;
+   width: 100%;
+}

@@ -1,0 +1,24 @@
+body {
+   background-color: rgb(216, 216, 216);
+}
+
+header {
+   background-color: rgb(68, 68, 68);
+   height: 15vh;
+}
+
+.container {
+   position: relative;
+   left: 15vw;
+   width: 70vw;
+   height: 77vh;
+   background-color: white;
+}
+
+footer {
+   position: fixed;
+   bottom: 0px;
+   background-color: rgb(34, 34, 34);
+   height: 8vh;
+   width: inherit;
+}
