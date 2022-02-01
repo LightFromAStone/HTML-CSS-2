@@ -56,4 +56,17 @@ p {
    background-color: rgb(245, 231, 82);
    height: 25vh;
    width: 100%;
+   display: flex;
+   justify-content: right;
+   align-items: flex-end;
+}
+
+button {
+   color: white;
+   background-color: black;
+   border-radius: 50%;
+   font-size: 2rem;
+   height: 5vh;
+   width: 5vh;
+   margin: 1vh;
 }
